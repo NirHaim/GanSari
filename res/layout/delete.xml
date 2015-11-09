@@ -1,0 +1,298 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+>
+
+ <RelativeLayout
+     android:layout_width="match_parent"
+     android:layout_height="615dp"
+     android:background="@drawable/background2222" >
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/checkBox1"
+        android:layout_marginRight="14dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/checkBox2"
+        android:layout_marginRight="14dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/checkBox3"
+        android:layout_marginRight="14dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/checkBox4"
+        android:layout_marginRight="14dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/checkBox5"
+        android:layout_marginRight="14dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/checkBox6"
+        android:layout_marginRight="14dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/checkBox7"
+        android:layout_marginRight="14dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/checkBox8"
+        android:layout_marginRight="14dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/checkBox9"
+        android:layout_marginRight="14dp" />
+
+    <CheckedTextView
+        android:id="@+id/checkedTextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/checkBox1"
+        android:layout_alignBottom="@+id/checkBox1"
+        android:layout_toLeftOf="@+id/checkBox1"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="אלה שייביץ" />
+
+    <CheckedTextView
+        android:id="@+id/checkedTextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/checkBox2"
+        android:layout_alignBottom="@+id/checkBox2"
+        android:layout_toLeftOf="@+id/checkBox2"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="ארבל ליפשיץ" />
+
+    <CheckedTextView
+        android:id="@+id/checkedTextView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/checkBox3"
+        android:layout_alignBottom="@+id/checkBox3"
+        android:layout_toLeftOf="@+id/checkBox3"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="אלון רחמני" />
+
+    <CheckedTextView
+        android:id="@+id/checkedTextView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/checkBox4"
+        android:layout_alignBottom="@+id/checkBox4"
+        android:layout_alignRight="@+id/checkedTextView3"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="גיא מרגלית" />
+
+    <CheckedTextView
+        android:id="@+id/checkedTextView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/checkBox5"
+        android:layout_alignBottom="@+id/checkBox5"
+        android:layout_alignRight="@+id/checkedTextView4"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="עמית אוירבך" />
+
+    <CheckedTextView
+        android:id="@+id/checkedTextView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/checkBox6"
+        android:layout_alignBottom="@+id/checkBox6"
+        android:layout_alignRight="@+id/checkedTextView5"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="רוני אדלר" />
+
+    <CheckedTextView
+        android:id="@+id/checkedTextView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/checkBox7"
+        android:layout_alignBottom="@+id/checkBox7"
+        android:layout_alignRight="@+id/checkedTextView6"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="ליאל ברוך" />
+
+    <CheckedTextView
+        android:id="@+id/checkedTextView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/checkBox8"
+        android:layout_alignBottom="@+id/checkBox8"
+        android:layout_toLeftOf="@+id/checkBox8"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="נועה פרידמן" />
+
+    <CheckedTextView
+        android:id="@+id/checkedTextView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/checkBox9"
+        android:layout_alignBottom="@+id/checkBox9"
+        android:layout_alignRight="@+id/checkedTextView8"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="עדי רוזנברג" />
+
+    <CheckedTextView
+        android:id="@+id/checkedTextView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/checkBox10"
+        android:layout_alignBottom="@+id/checkBox10"
+        android:layout_toLeftOf="@+id/checkBox10"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="זוהר גולן" />
+
+    <CheckBox
+        android:id="@+id/checkBox13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/checkBox11"
+        android:layout_below="@+id/checkBox12" />
+
+    <CheckBox
+        android:id="@+id/checkBox11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/checkBox10"
+        android:layout_below="@+id/checkBox10" />
+
+    <CheckBox
+        android:id="@+id/checkBox12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkBox11"
+        android:layout_toRightOf="@+id/checkedTextView10" />
+
+    <CheckedTextView
+        android:id="@+id/checkedTextView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/checkBox11"
+        android:layout_alignBottom="@+id/checkBox11"
+        android:layout_toLeftOf="@+id/checkBox11"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="נהוראי גולן" />
+
+    <CheckedTextView
+        android:id="@+id/checkedTextView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/checkBox12"
+        android:layout_alignBottom="@+id/checkBox12"
+        android:layout_toLeftOf="@+id/checkBox12"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="אבנר אהרון" />
+
+    <CheckedTextView
+        android:id="@+id/checkedTextView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/checkBox13"
+        android:layout_alignBottom="@+id/checkBox13"
+        android:layout_alignLeft="@+id/checkedTextView7"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="עומרי ואקי" />
+
+    <CheckBox
+        android:id="@+id/checkBox14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkBox13"
+        android:layout_toRightOf="@+id/checkedTextView12" />
+
+    <CheckedTextView
+        android:id="@+id/checkedTextView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/checkBox14"
+        android:layout_alignBottom="@+id/checkBox14"
+        android:layout_alignRight="@+id/checkedTextView13"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="שיר טפירו- לוי" />
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/checkBox2"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="47dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView3"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_marginRight="15dp"
+        android:layout_toLeftOf="@+id/textView3"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_toLeftOf="@+id/button1"
+        android:src="@drawable/icongan" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/checkBox1"
+        android:layout_marginTop="15dp"
+        android:text="בחרי את הילדים שברצונך למחוק:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkBox14"
+        android:layout_marginTop="45dp"
+        android:layout_toLeftOf="@+id/checkedTextView10"
+        android:text="מחיקה" />
+
+ </RelativeLayout>
+</ScrollView>
+
